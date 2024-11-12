@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="signin.css">
+        <script
+            src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+        <script
+            src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    </head>
+    <body>
+
+        <!-- signin start -->
+        <div
+            style="background-color: thistle; text-align: center; width: 50%; margin: 150px auto; border: 2px solid black;">
+
+            <h1 style="text-align: center;">Sign In</h1>
+
+            <input style="width: 90%; height: 30px;" type="text"
+                placeholder="Enter name" id="loginname"> <br><br>
+
+            <input style="width: 90%; height: 30px;" type="email"
+                placeholder="Enter Email" id="loginemail"> <br><br>
+
+            <input style="width: 90%; height: 30px;" type="password"
+                placeholder="Enter Password" id="loginpassword">
+
+            <br><br>
+
+            <button
+                style="margin-bottom:10px ; padding: 10px 20px; background-color: blue; color: white; font-size: 20px;border-radius: 8px;"
+                onclick="signIn()">Sign In</button>
+
+        </div>
+
+        <!-- signin End -->
+
+    </body>
+    <script src="signin.js"></script>
+</html>

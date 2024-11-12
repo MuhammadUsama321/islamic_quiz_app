@@ -1,0 +1,98 @@
+body{
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding:0px;
+
+}
+
+
+.quizappheading{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight:  bold;
+    text-align: center;
+    padding: 30px;
+    width: 30%;
+    /* margin-left: 30px; */
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+#timer{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight:  bold;
+    text-align: center;
+    padding: 30px;
+    width: 30%;
+    /* margin-left: 30px; */
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+
+
+
+#ques{
+    margin-top: 70px;
+    background-color: rgb(234, 194, 19);
+    color: white;
+    font-weight:  bold;
+    font-size: 23px;
+    text-align: center;
+    padding: 30px;
+    width: 30%;
+    /* margin-left: 30px; */
+    border-radius: 30px;
+
+
+
+
+}
+
+#opt1{
+    background-color: rgb(186, 21, 49);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+#opt2{
+    background-color: rgb(186, 21, 49);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 35px;
+
+}
+#opt3{
+    background-color: rgb(186, 21, 49);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 35px;
+
+}
+
+
+#btn{
+    background-color: lightgreen;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 55px;
+    margin-top: 30px;
+    padding: 20px;
+
+}

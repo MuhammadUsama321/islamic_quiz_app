@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body onload="nextQuestion()">
+
+    <div>
+        <div>
+            <h1 class="quizappheading">Islamic Quiz App </h1>
+            <br>
+            <h2 id="timer">2:00</h2>
+        </div>
+        <div>
+            <p id="ques"></p>
+            <input value="1" class="options" name="options" onclick="clicked()" type="radio">
+            <label id="opt1" for=""></label>
+            <br><br>
+            <input value="2" class="options" name="options" onclick="clicked()" type="radio">
+            <label id="opt2" for=""></label>
+            <br><br>
+            <input value="3" class="options" name="options" onclick="clicked()" type="radio">
+            <label id="opt3" for=""></label>
+            <br><br>
+            <button id="btn" disabled onclick="nextQuestion()">Next Question</button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="home.js"></script>
+    
+</body>
+</html>
